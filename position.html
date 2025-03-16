@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Position Practice</title>
+        <style>
+            .header{
+                background-color: black;
+                color: white;
+                position: fixed;
+                display: flex;
+                justify-content: center;
+                height: 50px;
+                top: 0;
+                left: 0;
+                right: 0;
+                z-index: 1;
+            }
+
+            .sidebar{
+                background-color: green;
+                color: white;
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                top: 50px;
+                width: 55px;
+            }
+        </style>
+    </head>
+    <body style="height: 3000px; padding-top: 50px; padding-left: 50px;" >
+        <div class="header">
+            Header
+        </div>
+        <div class="sidebar" >
+            <div style="
+                background-color: red;
+                color: white;
+                position: absolute;
+                top: 0;
+                right: 0;
+            ">
+                [X]
+            </div>
+        </div>
+        <div style="
+            position: absolute;
+            background-color: red;
+            color: white;
+            top: 90px;
+            right: 10px;
+        ">
+            Absolute
+        </div>
+        <div style=
+        "background-color: lightblue;
+        height: 200px;
+        width: 200px;
+        " >
+            Div1
+        </div>
+        <div style=
+        "background-color: lightpink; 
+        height: 200px;
+        width: 200px;
+        position: relative;
+        ">
+            Div2
+            <div style="
+                background-color: blue;
+                color: white;
+                position: absolute;
+                bottom: 5px;
+                right: 5px;
+            ">
+                Timestamp
+            </div>
+        </div>
+    </body>
+</html>

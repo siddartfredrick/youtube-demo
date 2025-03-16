@@ -1,0 +1,25 @@
+# STYLYING IMAGES #
+1. What are some properties used to manipulate images in CSS?
+    - width
+    - height
+    - border
+    - border-radius 
+    - object-fit
+    - object-position
+
+2. Explain object-fit.
+    - So this specifies how the object will fit within the container
+    - Fill, Cover, Contain, None and Scale-down are all possible values 
+
+3. What are easier way of specifying each of the following three properties?
+    -border-width: 2px;
+    -border-style: solid;
+    -border-color: red;
+
+    - And easier way is to just specify the border. This is a shorthand way of doing this.
+
+4. What are the four possible values for border-style?
+    - dotted, solid, double, dashed
+
+5. What is a html entity?
+    - It's just the code to represent special characters in html

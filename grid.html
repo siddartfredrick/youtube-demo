@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            CSS Grid Demo
+        </title>
+        <style>
+            .container-4{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                column-gap: 20px;
+                row-gap: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container-4">
+            <div style="background-color: lightblue; height: 200px">
+                free space 1
+            </div>
+            <div style="background-color:lightpink;">
+                free space 2
+            </div>
+            <div style="background-color: lightblue;">
+                free space 3
+            </div>
+            <div style="background-color: lightpink; height: 200px">
+                free space 1
+            </div>
+            <div style="background-color:lightblue;">
+                free space 2
+            </div>
+            <div style="background-color: lightpink;">
+                free space 3
+            </div>
+        </div>
+    </body>
+</html>
